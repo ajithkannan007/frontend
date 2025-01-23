@@ -1,0 +1,305 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    left: 100%;
+  }
+  50% {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  100% {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.back{
+    padding: 10px;
+    border-radius: 1px;
+    margin: 25px;
+    width: 20%;
+    font-size: 10px;
+    margin-right: 80%;
+    color: white;
+    background-color: black;
+}
+select{
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+
+}
+.login-page {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 5%;
+  /* margin-bottom: 15px; */
+  padding: 3px;
+  margin: 12px;
+  background-color: gray;
+  text-align: center;
+  
+
+}
+label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.alert{
+font-weight: bold;
+}
+
+.submit{
+     text-align: center;
+     width: 25%;
+     margin-left: 80%;
+}
+.logo{
+  position: absolute;
+  padding: 2px;
+  margin: 2px;
+  top: 0 ;
+  left: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 32px;
+}
+.home{
+  position: absolute;
+  top:0;
+  padding: 3px;
+  margin: 12px;
+  left: 30%;
+  background-color: grey;
+}
+.categories{
+  position: absolute;
+  top: 0;
+  left: 45%;
+  margin: 12px;
+  padding: 3px;
+  font-size: 14px;
+  height: 30px;
+  box-sizing:border-box;
+  border: 1px solid #ddd;
+  width: 15%;
+  background-color: gray;
+  text-wrap: cat;
+
+}
+.option{
+  padding: 12px;
+  left: 30%;
+
+}
+.services{
+  position: absolute;
+  top: 0;
+  padding: 3px;
+  margin: 12px;
+  left: 65%;
+  background-color: gray;
+}
+.custom{
+  position: relative; 
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 250vh;
+  opacity: 0.5;
+  display: flex;
+}
+
+.signup-page{
+  position: absolute;
+  top: 0;
+  right: 1%;
+  width: 5%;
+  /* margin-bottom: 15px; */
+  padding: 3px;
+  margin: 12px;
+  background-color: gray;
+}
+.textimage{
+  position: absolute; 
+  top: 90%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+}
+.getstarted{
+  position: absolute; 
+  top: 110%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  background-color: lightgray;
+}
+.mainContainer {
+  position: absolute;
+  bottom: 40%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content:top;
+  height: 100vh;
+  position: relative;
+  background-image: url('custom.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 250vh;
+  opacity: 0.5;
+  display: flex;
+}
+.mainContainer > .backButton{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 64px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultContainer,
+.historyItem {
+  flex-direction: row;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.inputBox {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+.backButton{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px;
+  padding: 5px;
+  background-color: grey;
+  
+}
+.servicestitle
+{
+  margin: 5%;
+  padding: 1%;
+  position: relative; 
+  top: 5%; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  animation: slide-left 20s linear infinite;
+}
+.paragra{
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  position: relative;
+  margin: 5%;
+  padding: 1%;
+}
+.Formtitle{
+  margin: 5%;
+  padding: 1%;
+  font-size: 10px;
+  color: green;
+}
