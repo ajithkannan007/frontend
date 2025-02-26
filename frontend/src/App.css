@@ -9,7 +9,10 @@
   height: 6em;
   padding: 1.5em;
   will-change: filter;
+  right: 85%;
+  max-width: 20%;
   transition: filter 300ms;
+  font-family:  Haettenschweiler;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

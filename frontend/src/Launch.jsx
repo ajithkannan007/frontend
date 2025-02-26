@@ -35,7 +35,7 @@ const Launch = (props) => {
     <>
      <div >
       <img className="custom" src={reactLogo} alt='custom-Tees' />
-      <header className='logo' >Custom Tees</header>
+      <header className='logo' >Custom <br></br>Tees</header>
       <button className='home'>Home</button>
       <select  className='categories' name='category'>
         <option value='caregories' hidden>categories</option>

@@ -1,6 +1,6 @@
 body {
     background: #f3f3f3;
-    text-align: center;
+    text-align: center; 
 }
 .Teacher {
     background-color: #fff;
@@ -14,17 +14,17 @@ body {
     margin-top: 20px;
 }
 
-h1 {
+.header {
     font-size: x-large;
     text-align: center;
     color: #327c35;
 }
 
-fieldset {
+.fieldset1 {
     border: none;
 }
 
-input {
+.input1 {
     display: block;
     width: 100%;
     /* margin-bottom: 15px; */
@@ -34,8 +34,8 @@ input {
     border-radius: 3px;
     font-size: 12px;
 }
-input[type="radio"],
-input[type="checkbox"] {
+.input1[type="radio"],
+.input1[type="checkbox"] {
     display: inline;
     width: 10%;
 }
@@ -49,7 +49,7 @@ select {
     border-radius: 5px;
 }
 
-label {
+.labelfor {
     font-size: 15px;
     display: block;
     width: 100%;
@@ -60,7 +60,7 @@ label {
     font-weight: bold;
 }
 
-button {
+.button1 {
     padding: 15px;
     border-radius: 10px;
     margin: 15px;
@@ -71,7 +71,7 @@ button {
     width: 40%;
     font-size: 16px;
 }
-textarea {
+.textarea1 {
     resize: none;
     width: 98%;
     min-height: 100px;
@@ -84,4 +84,29 @@ textarea {
     width: 10%;
     font-size: 16px;
     margin-right: 80%;
+}
+.mainContainer {
+    position: absolute;
+    bottom: 40%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content:top;
+    height: 100vh;
+    position: relative;
+    background-image: url('custom.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 250vh;
+    opacity: 0.5;
+    display: flex;
+  }
+
+  .preview-image {
+    max-width: 200px; /* Adjust the width as needed */
+    max-height: 200px; /* Adjust the height as needed */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    padding: 5px; /* Optional: Add padding */
 }
